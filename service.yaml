@@ -11,6 +11,8 @@ spec:
       port: 8080
       targetPort: 8080
       name: http
+      nodePort: 32001
     - protocol: TCP
       port: 443
       name: https
+      nodePort: 32002
