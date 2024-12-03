@@ -53,6 +53,6 @@ public class StudentSurveyController {
     @DeleteMapping("/deleteSuveryById/{surveyId}")
     public String deleteSuveryById(@PathVariable int surveyId){
         studentSurveyService.deleteSurveyById(surveyId);
-        return "Deleted Suvery";
+        return "Deleted Survey";
     }
 }
