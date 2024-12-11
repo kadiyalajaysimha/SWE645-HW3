@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"http://ec2-3-213-242-74.compute-1.amazonaws.com:32005","http://localhost:3000")
+@CrossOrigin(origins = {"http://ec2-3-213-242-74.compute-1.amazonaws.com:32005","http://localhost:3000"})
 @RequestMapping("/api")
 public class StudentSurveyController {
 
